@@ -1,4 +1,4 @@
-package com.hjg.sort;
+﻿package com.hjg.sort;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ import java.util.Arrays;
  * @author hjg
  * @date 2020/8/14 23:21
  */
-//归并排序的时间复杂度为nlog2n
+//归并排序的时间复杂度为nlogn
 public class MergeSort {
     public static void merSort(int[] arr,int left,int right){
         if (left<right){
